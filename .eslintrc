@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true,
+          "modules": true,
+          "experimentalObjectRestSpread": true
+      }
+  },
+  "plugins": [
+      "react"
+  ],
+  "extends": [
+    "eslint:recommended", 
+    "plugin:react/recommended"
+  ],
+  "rules": {
+      "comma-dangle": 0,
+      "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}]
+  },
+  "globals": {
+    "document": false
+}
+}
