@@ -1,26 +1,36 @@
 {
-  "parserOptions": {
-      "ecmaVersion": 8,
-      "sourceType": "module",
-      "ecmaFeatures": {
-          "jsx": true,
-          "modules": true,
-          "experimentalObjectRestSpread": true
-      }
-  },
-  "plugins": [
-      "react"
-  ],
-  "extends": [
-    "eslint:recommended", 
-    "plugin:react/recommended"
-  ],
-  "rules": {
-      "comma-dangle": 0,
-      "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}],
-      "no-unused-vars": ["warning"]
-  },
-  "globals": {
-    "document": false
-}
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "comma-dangle": 0,
+        "react/no-unescaped-entities": [
+            "error",
+            {
+                "forbid": [
+                    ">",
+                    "}"
+                ]
+            }
+        ],
+        "no-unused-vars": [
+            1
+        ]
+    },
+    "globals": {
+        "document": false
+    }
 }
