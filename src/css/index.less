@@ -1,5 +1,11 @@
 @import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../css/fonts/Roboto/roboto-v18-latin_cyrillic-regular.woff) format('woff');
+}
+
 .image-gallery-fullscreen-button {
   left: 0;
   top: 0;
@@ -58,6 +64,7 @@
   font-size: 20pt;
   text-decoration: none;
   color: grey;
+  text-transform: uppercase;
 }
 .header .title h1 a:hover {
   text-decoration: none;
@@ -100,6 +107,7 @@
 
   a {
     color: #343a40;
+    text-transform: uppercase;
 
     &:hover {
       color : #ccc;
