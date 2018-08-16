@@ -13,9 +13,9 @@ const masonryOptions = {
 const imagesLoadedOptions = { background: '.my-bg-image-el' }
 
 const Gallery = (props) => {
-  const { match: { params: { type } }} = props // eslint-disable-line no-unused-vars
+const { match: { params: { type } }} = props // eslint-disable-line no-unused-vars
 
-  debugger //eslint-disable-line
+  //debugger //eslint-disable-line
 
     const childElements = types[type].map((element) => {
 

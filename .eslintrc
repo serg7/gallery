@@ -17,7 +17,8 @@
   ],
   "rules": {
       "comma-dangle": 0,
-      "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}]
+      "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}],
+      "no-unused-vars": ["warning"]
   },
   "globals": {
     "document": false

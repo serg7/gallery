@@ -34,22 +34,22 @@ class TopMenu extends React.Component {
           <Navbar className="topmenu" expand="md">
           <Nav className='types'>
             <NavItem>
-              <NavLink href="/gallery/landscapes">Пейзажи</NavLink>
+              <NavLink href="#/gallery/landscapes">Пейзажи</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/gallery/nu">Ню</NavLink>
+              <NavLink href="#/gallery/nu">Ню</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/gallery/still-life">Натюрморты</NavLink>
+              <NavLink href="#/gallery/still-life">Натюрморты</NavLink>
             </NavItem>
            </Nav>
 
            <Nav className='misc'>
             <NavItem>
-              <NavLink href="/about">Обо Мне</NavLink>
+              <NavLink href="#/about">Обо Мне</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contacts">Контакты</NavLink>
+              <NavLink href="#/contacts">Контакты</NavLink>
             </NavItem>
            </Nav>
           </Navbar>
