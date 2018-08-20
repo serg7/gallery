@@ -10,7 +10,7 @@ const masonryOptions = {
 
 class Content extends React.Component {
     render() {
-        const pics = [...Array(34).keys()].slice(1)
+        const pics = [...Array(10).keys()].slice(1)
 
         //debugger // eslint-disable-line
 
