@@ -1,26 +1,27 @@
 export const items = [
     {
         id: 1,
-        title: 'Image 1',
+        title: 'Летние мотивы',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'реализм',
+            mediums: 'Масло, холст, картон',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 50'
         },
-        altText: 'Image 1',
+        altText: 'Летние мотивы',
         src: '1.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '1.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
             {
-              original: '/images/fullsize/1.jpg',
-              thumbnail: '/images/mini/1.jpg',
+                original: '/images/fullsize/1.jpg',
+                thumbnail: '/images/mini/1.jpg',
             },
             {
                 original: '/images/fullsize/1.jpg',
@@ -35,26 +36,27 @@ export const items = [
 
     {
         id: 2,
-        title: 'Image 2',
+        title: 'Лен цветет',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
             size: '40 x 60'
         },
-        altText: 'Image 2',
+        altText: 'Лен цветет',
         src: '2.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '2.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
             {
-              original: '/images/fullsize/2.jpg',
-              thumbnail: '/images/mini/2.jpg',
+                original: '/images/fullsize/2.jpg',
+                thumbnail: '/images/mini/2.jpg',
             },
             {
                 original: '/images/fullsize/2.jpg',
@@ -69,14 +71,14 @@ export const items = [
 
     {
         id: 3,
-        title: 'Image 3',
+        title: 'Мостик',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 40'
         },
         altText: 'Image 3',
         src: '3.jpg',
@@ -85,10 +87,11 @@ export const items = [
         thumbSrc: '3.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2012',
         images: [
-            { 
-              original: '/images/fullsize/3.jpg',
-              thumbnail: '/images/mini/3.jpg',
+            {
+                original: '/images/fullsize/3.jpg',
+                thumbnail: '/images/mini/3.jpg',
             },
             {
                 original: '/images/fullsize/3.jpg',
@@ -103,26 +106,27 @@ export const items = [
 
     {
         id: 4,
-        title: 'Image 4',
+        title: 'Пейзажи Подолья',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст, картон',
             material: 'Other',
-            size: '40 x 60'
+            size: '40 x 62'
         },
-        altText: 'Image 4',
+        altText: 'Пейзажи Подолья',
         src: '4.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '4.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2012',
         images: [
-            { 
-              original: '/images/fullsize/4.jpg',
-              thumbnail: '/images/mini/4.jpg',
+            {
+                original: '/images/fullsize/4.jpg',
+                thumbnail: '/images/mini/4.jpg',
             },
             {
                 original: '/images/fullsize/4.jpg',
@@ -137,26 +141,27 @@ export const items = [
 
     {
         id: 5,
-        title: 'Image 5',
+        title: 'Святой ручей',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
             size: '40 x 60'
         },
-        altText: 'Image 5',
+        altText: 'Святой ручей',
         src: '5.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '5.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2012',
         images: [
-            { 
-              original: '/images/fullsize/5.jpg',
-              thumbnail: '/images/mini/5.jpg',
+            {
+                original: '/images/fullsize/5.jpg',
+                thumbnail: '/images/mini/5.jpg',
             },
             {
                 original: '/images/fullsize/5.jpg',
@@ -171,26 +176,27 @@ export const items = [
 
     {
         id: 6,
-        title: 'Image 6',
+        title: 'Подарок лета',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 40'
         },
-        altText: 'Image 6',
+        altText: 'Подарок лета',
         src: '6.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '6.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2014',
         images: [
-            { 
-              original: '/images/fullsize/6.jpg',
-              thumbnail: '/images/mini/6.jpg',
+            {
+                original: '/images/fullsize/6.jpg',
+                thumbnail: '/images/mini/6.jpg',
             },
             {
                 original: '/images/fullsize/6.jpg',
@@ -205,26 +211,27 @@ export const items = [
 
     {
         id: 7,
-        title: 'Image 7',
+        title: 'Горная река',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст, картон',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 50'
         },
-        altText: 'Image 7',
+        altText: 'Горная река',
         src: '7.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '7.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2009',
         images: [
-            { 
-              original: '/images/fullsize/7.jpg',
-              thumbnail: '/images/mini/7.jpg',
+            {
+                original: '/images/fullsize/7.jpg',
+                thumbnail: '/images/mini/7.jpg',
             },
             {
                 original: '/images/fullsize/7.jpg',
@@ -239,26 +246,27 @@ export const items = [
 
     {
         id: 8,
-        title: 'Image 8',
+        title: 'Летний день',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Пейзаж',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 50'
         },
-        altText: 'Image 8',
+        altText: 'Летний день',
         src: '8.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '8.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2011',
         images: [
-            { 
-              original: '/images/fullsize/8.jpg',
-              thumbnail: '/images/mini/8.jpg',
+            {
+                original: '/images/fullsize/8.jpg',
+                thumbnail: '/images/mini/8.jpg',
             },
             {
                 original: '/images/fullsize/8.jpg',
@@ -273,26 +281,27 @@ export const items = [
 
     {
         id: 9,
-        title: 'Image 9',
+        title: 'Маки',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Натюрморт',
+            styles: 'Реализм',
+            mediums: 'Масло, холст, картон',
             material: 'Other',
-            size: '40 x 60'
+            size: '30 x 50'
         },
-        altText: 'Image 9',
+        altText: 'Маки',
         src: '9.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '9.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2014',
         images: [
-            { 
-              original: '/images/fullsize/9.jpg',
-              thumbnail: '/images/mini/9.jpg',
+            {
+                original: '/images/fullsize/9.jpg',
+                thumbnail: '/images/mini/9.jpg',
             },
             {
                 original: '/images/fullsize/9.jpg',
@@ -307,26 +316,27 @@ export const items = [
 
     {
         id: 10,
-        title: 'Image 10',
+        title: 'Цветок',
         description: {
             keywords: 'Paintings, Seasons, Landscape, Nature',
-            subject: 'Landscape',
-            styles: 'Realism',
-            mediums: 'Oil',
+            subject: 'Ню',
+            styles: 'Реализм',
+            mediums: 'Масло, холст',
             material: 'Other',
-            size: '40 x 60'
+            size: '50 x 70'
         },
-        altText: 'Image 10',
+        altText: 'Цветок',
         src: '10.jpg',
         height: 2500,
         width: 3000,
         thumbSrc: '10.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2014',
         images: [
-            { 
-              original: '/images/fullsize/10.jpg',
-              thumbnail: '/images/mini/10.jpg',
+            {
+                original: '/images/fullsize/10.jpg',
+                thumbnail: '/images/mini/10.jpg',
             },
             {
                 original: '/images/fullsize/10.jpg',
@@ -358,9 +368,9 @@ export const items = [
         thumbHeight: 250,
         thumbWidth: 300,
         images: [
-            { 
-              original: '/images/fullsize/11.jpg',
-              thumbnail: '/images/mini/11.jpg',
+            {
+                original: '/images/fullsize/11.jpg',
+                thumbnail: '/images/mini/11.jpg',
             },
             {
                 original: '/images/fullsize/11.jpg',
@@ -391,10 +401,11 @@ export const items = [
         thumbSrc: '12.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/12.jpg',
-              thumbnail: '/images/mini/12.jpg',
+            {
+                original: '/images/fullsize/12.jpg',
+                thumbnail: '/images/mini/12.jpg',
             },
             {
                 original: '/images/fullsize/12.jpg',
@@ -425,10 +436,11 @@ export const items = [
         thumbSrc: '13.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/13.jpg',
-              thumbnail: '/images/mini/13.jpg',
+            {
+                original: '/images/fullsize/13.jpg',
+                thumbnail: '/images/mini/13.jpg',
             },
             {
                 original: '/images/fullsize/13.jpg',
@@ -440,7 +452,7 @@ export const items = [
             }
         ]
     },
-    
+
     {
         id: 14,
         title: 'Image 14',
@@ -459,10 +471,11 @@ export const items = [
         thumbSrc: '14.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/14.jpg',
-              thumbnail: '/images/mini/14.jpg',
+            {
+                original: '/images/fullsize/14.jpg',
+                thumbnail: '/images/mini/14.jpg',
             },
             {
                 original: '/images/fullsize/14.jpg',
@@ -493,10 +506,11 @@ export const items = [
         thumbSrc: '15.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/15.jpg',
-              thumbnail: '/images/mini/15.jpg',
+            {
+                original: '/images/fullsize/15.jpg',
+                thumbnail: '/images/mini/15.jpg',
             },
             {
                 original: '/images/fullsize/15.jpg',
@@ -527,10 +541,11 @@ export const items = [
         thumbSrc: '16.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/16.jpg',
-              thumbnail: '/images/mini/16.jpg',
+            {
+                original: '/images/fullsize/16.jpg',
+                thumbnail: '/images/mini/16.jpg',
             },
             {
                 original: '/images/fullsize/16.jpg',
@@ -561,10 +576,11 @@ export const items = [
         thumbSrc: '17.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/17.jpg',
-              thumbnail: '/images/mini/17.jpg',
+            {
+                original: '/images/fullsize/17.jpg',
+                thumbnail: '/images/mini/17.jpg',
             },
             {
                 original: '/images/fullsize/17.jpg',
@@ -595,10 +611,11 @@ export const items = [
         thumbSrc: '18.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/18.jpg',
-              thumbnail: '/images/mini/18.jpg',
+            {
+                original: '/images/fullsize/18.jpg',
+                thumbnail: '/images/mini/18.jpg',
             },
             {
                 original: '/images/fullsize/18.jpg',
@@ -629,10 +646,11 @@ export const items = [
         thumbSrc: '19.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/19.jpg',
-              thumbnail: '/images/mini/19.jpg',
+            {
+                original: '/images/fullsize/19.jpg',
+                thumbnail: '/images/mini/19.jpg',
             },
             {
                 original: '/images/fullsize/19.jpg',
@@ -663,10 +681,11 @@ export const items = [
         thumbSrc: '20.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/20.jpg',
-              thumbnail: '/images/mini/20.jpg',
+            {
+                original: '/images/fullsize/20.jpg',
+                thumbnail: '/images/mini/20.jpg',
             },
             {
                 original: '/images/fullsize/20.jpg',
@@ -697,10 +716,11 @@ export const items = [
         thumbSrc: '21.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/21.jpg',
-              thumbnail: '/images/mini/21.jpg',
+            {
+                original: '/images/fullsize/21.jpg',
+                thumbnail: '/images/mini/21.jpg',
             },
             {
                 original: '/images/fullsize/21.jpg',
@@ -731,10 +751,11 @@ export const items = [
         thumbSrc: '22.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/22.jpg',
-              thumbnail: '/images/mini/22.jpg',
+            {
+                original: '/images/fullsize/22.jpg',
+                thumbnail: '/images/mini/22.jpg',
             },
             {
                 original: '/images/fullsize/22.jpg',
@@ -765,10 +786,11 @@ export const items = [
         thumbSrc: '23.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/23.jpg',
-              thumbnail: '/images/mini/23.jpg',
+            {
+                original: '/images/fullsize/23.jpg',
+                thumbnail: '/images/mini/23.jpg',
             },
             {
                 original: '/images/fullsize/23.jpg',
@@ -799,10 +821,11 @@ export const items = [
         thumbSrc: '24.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/24.jpg',
-              thumbnail: '/images/mini/24.jpg',
+            {
+                original: '/images/fullsize/24.jpg',
+                thumbnail: '/images/mini/24.jpg',
             },
             {
                 original: '/images/fullsize/24.jpg',
@@ -833,10 +856,11 @@ export const items = [
         thumbSrc: '25.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/25.jpg',
-              thumbnail: '/images/mini/25.jpg',
+            {
+                original: '/images/fullsize/25.jpg',
+                thumbnail: '/images/mini/25.jpg',
             },
             {
                 original: '/images/fullsize/25.jpg',
@@ -867,10 +891,11 @@ export const items = [
         thumbSrc: '25.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/26.jpg',
-              thumbnail: '/images/mini/26.jpg',
+            {
+                original: '/images/fullsize/26.jpg',
+                thumbnail: '/images/mini/26.jpg',
             },
             {
                 original: '/images/fullsize/26.jpg',
@@ -901,10 +926,11 @@ export const items = [
         thumbSrc: '27.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/27.jpg',
-              thumbnail: '/images/mini/27.jpg',
+            {
+                original: '/images/fullsize/27.jpg',
+                thumbnail: '/images/mini/27.jpg',
             },
             {
                 original: '/images/fullsize/27.jpg',
@@ -935,10 +961,11 @@ export const items = [
         thumbSrc: '28.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/28.jpg',
-              thumbnail: '/images/mini/28.jpg',
+            {
+                original: '/images/fullsize/28.jpg',
+                thumbnail: '/images/mini/28.jpg',
             },
             {
                 original: '/images/fullsize/28.jpg',
@@ -969,10 +996,11 @@ export const items = [
         thumbSrc: '29.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/29.jpg',
-              thumbnail: '/images/mini/29.jpg',
+            {
+                original: '/images/fullsize/29.jpg',
+                thumbnail: '/images/mini/29.jpg',
             },
             {
                 original: '/images/fullsize/29.jpg',
@@ -1003,10 +1031,11 @@ export const items = [
         thumbSrc: '29.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/30.jpg',
-              thumbnail: '/images/mini/30.jpg',
+            {
+                original: '/images/fullsize/30.jpg',
+                thumbnail: '/images/mini/30.jpg',
             },
             {
                 original: '/images/fullsize/30.jpg',
@@ -1037,10 +1066,11 @@ export const items = [
         thumbSrc: '31.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/31.jpg',
-              thumbnail: '/images/mini/31.jpg',
+            {
+                original: '/images/fullsize/31.jpg',
+                thumbnail: '/images/mini/31.jpg',
             },
             {
                 original: '/images/fullsize/31.jpg',
@@ -1071,10 +1101,11 @@ export const items = [
         thumbSrc: '32.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/32.jpg',
-              thumbnail: '/images/mini/32.jpg',
+            {
+                original: '/images/fullsize/32.jpg',
+                thumbnail: '/images/mini/32.jpg',
             },
             {
                 original: '/images/fullsize/32.jpg',
@@ -1105,10 +1136,11 @@ export const items = [
         thumbSrc: '33.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/33.jpg',
-              thumbnail: '/images/mini/33.jpg',
+            {
+                original: '/images/fullsize/33.jpg',
+                thumbnail: '/images/mini/33.jpg',
             },
             {
                 original: '/images/fullsize/33.jpg',
@@ -1139,10 +1171,11 @@ export const items = [
         thumbSrc: '34.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/34.jpg',
-              thumbnail: '/images/mini/34.jpg',
+            {
+                original: '/images/fullsize/34.jpg',
+                thumbnail: '/images/mini/34.jpg',
             },
             {
                 original: '/images/fullsize/34.jpg',
@@ -1173,10 +1206,11 @@ export const items = [
         thumbSrc: '35.jpg',
         thumbHeight: 250,
         thumbWidth: 300,
+        year: '2016',
         images: [
-            { 
-              original: '/images/fullsize/35.jpg',
-              thumbnail: '/images/mini/35.jpg',
+            {
+                original: '/images/fullsize/35.jpg',
+                thumbnail: '/images/mini/35.jpg',
             },
             {
                 original: '/images/fullsize/35.jpg',

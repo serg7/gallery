@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {
   //Collapse,
   Navbar,
@@ -16,33 +17,25 @@ import { withRouter } from 'react-router-dom';
 
 class TopMenu extends React.Component {
   render() {
-    //const { pathname } = this.props.location;
-
-    //const isActive = this.props.location.pathname === this.props.to;
-    //var className = isActive ? 'active' : '';
-
-
-    // debugger  // eslint-disable-line
-
     return (
       <Navbar className="topmenu" expand="md">
         <Nav className='types'>
-          <NavItem>
+          <NavItem className={this.props.location.pathname === '/gallery/landscapes' ? 'active' : null}>
             <NavLink href="#/gallery/landscapes">Пейзажи</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className={this.props.location.pathname === '/gallery/nu' ? 'active' : null}>
             <NavLink href="#/gallery/nu">Ню</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className={this.props.location.pathname === '/gallery/still-life' ? 'active' : null}>
             <NavLink href="#/gallery/still-life">Натюрморты</NavLink>
           </NavItem>
         </Nav>
 
         <Nav className='misc'>
-          <NavItem>
+          <NavItem className={this.props.location.pathname === '/about' ? 'active' : null}>
             <NavLink href="#/about">Обо Мне</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className={this.props.location.pathname === '/contacts' ? 'active' : null}>
             <NavLink href="#/contacts">Контакты</NavLink>
           </NavItem>
         </Nav>
@@ -51,6 +44,8 @@ class TopMenu extends React.Component {
   }
 }
 
-
+TopMenu.propTypes = {
+  location: PropTypes.object.isRequired
+}
 
 export default withRouter(TopMenu)

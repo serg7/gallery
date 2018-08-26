@@ -56,45 +56,32 @@ class Image extends React.Component {
                 </div>
                 <div className='content-right'>
                     <div className='top'>
-                        <h2>Donec ullamcorper porta {params.id}</h2>
-                        <h5>Description</h5>
+                        <h2>{item.title}</h2>
+                        <h5>Описание:</h5>
                         <div className='description'>
                             <div className='keywords'>
-                                Keywords:
-                                <span className='value'>
-                                    {item.description.keywords}
-                                </span>
-                            </div>
-                            <hr />
-
-                            <div className='keywords'>
-                                Subject:
+                                Тема:
                                 <span className='value'>{item.description.subject}</span>
                             </div>
                             <hr />
 
                             <div className='keywords'>
-                                Styles:
+                                Стиль:
                                 <span className='value'>{item.description.styles}</span>
                             </div>
                             <hr />
 
                             <div className='keywords'>
-                                Mediums:
+                                Материалы:
                                 <span className='value'>{item.description.mediums}</span>
                             </div>
                             <hr />
 
                             <div className='keywords'>
-                                Material:
-                                <span className='value'>{item.description.material}</span>
+                                Год:
+                                <span className='value'>{item.year}</span>
                             </div>
-                            <hr />
 
-                            <div className='keywords'>
-                                Size:
-                                <span className='value'>{item.description.size}</span>
-                            </div>
                         </div>
                     </div>
                     <div className='bottom'>

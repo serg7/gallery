@@ -2,6 +2,8 @@ import React from 'react'
 import Masonry from 'react-masonry-component'
 import { Link } from 'react-router-dom'
 
+import { items } from '../images'
+
 const masonryOptions = {
     transitionDuration: 1000
 }
@@ -10,20 +12,18 @@ const masonryOptions = {
 
 class Content extends React.Component {
     render() {
-        const pics = [...Array(10).keys()].slice(1)
+        //const pics = [...Array(10).keys()].slice(1)
 
-        //debugger // eslint-disable-line
-
-        const childElements = pics.map((element) => {
+        const childElements = items.map((item, key) => {
+            //debugger
             return (
-                <div className="grid tile" key={element}>
-                    <Link to={`/image/${element}`} >
+                <div className="grid tile" key={key}>
+                    <Link to={`/image/${item.id}`} >
                         <figure className="effect-selena">
-                            <img src={`/images/mini/${element}.jpg`} />
+                            <img src={`/images/mini/${item.id}.jpg`} />
                             <figcaption>
                                 <div>
-                                    {/* <h2>Nice <span>Lily</span></h2> */}
-                                    <p>Lily likes to play with crayons and pencils</p>
+                                    <p>{item.title}</p>
                                 </div>
                             </figcaption>
                         </figure>
