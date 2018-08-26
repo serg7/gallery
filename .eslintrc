@@ -17,6 +17,7 @@
     ],
     "rules": {
         "comma-dangle": 0,
+        "no-debugger": 0,
         "react/no-unescaped-entities": [
             "error",
             {
